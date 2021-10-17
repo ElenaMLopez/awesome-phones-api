@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Elena M. López",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mogoose": "^0.0.1-security",
+    "nodemon": "^2.0.13"
+  }
 }
