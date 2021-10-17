@@ -2,3 +2,4 @@
 ## What is this?
 ### How was it created?
 ## How to run the API
+### `$ npm run dev`
