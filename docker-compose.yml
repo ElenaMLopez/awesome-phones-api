@@ -21,8 +21,8 @@ services:
 
     ports:
       - 27017:27017
-    # logging:
-    #   driver: none
+    logging:
+      driver: none
   mongo-seed:
     build: ./mongo-seed
     links:

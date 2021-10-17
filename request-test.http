@@ -1,0 +1,45 @@
+GET http://localhost:3000/phones
+
+###
+POST http://localhost:3000/phones HTTP/1.1
+content-Type: application/json
+
+
+{
+"id": 3,
+"name": "iPony 007",
+"manufacturer": "Apple",
+"description": "lorem ipsum dolor sit amet consectetur.",
+"color": "black",
+"price": 769,
+"imageFileName": "//m.media-amazon.com/images/I/61+fbdrjtCL._AC_SY355_.jpg",
+"screen": "4,7 inch IPS",
+"processor": "A10 Fusion",
+"ram": 2
+}
+
+###
+GET http://localhost:3000/phones/616b0be6db8b76f3183d6ba0
+
+###
+
+DELETE http://localhost:3000/phones/616b0bf0db8b76f3183d6ba4
+
+###
+PUT http://localhost:3000/phones/616b0be6db8b76f3183d6ba0 HTTP/1.1
+content-Type: application/json
+
+
+{
+"id": 3,
+"name": "iPony 007",
+"manufacturer": "PERA",
+"description": "Gatos maullan con la lata de atún",
+"color": "white",
+"price": 500,
+"imageFileName": "//m.media-amazon.com/images/I/61+fbdrjtCL._AC_SY355_.jpg",
+"screen": "4,7 inch IPS",
+"processor": "A10 Fusion",
+"ram": 2
+}
+ 
