@@ -13,4 +13,6 @@ const connect = async () => {
     console.log(`Error in database connection: ${error}`);
   }
 }
-module.exports = connect;
+module.exports = {
+  connect,
+};
