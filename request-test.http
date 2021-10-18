@@ -6,8 +6,8 @@ content-Type: application/json
 
 
 {
-"id": 3,
-"name": "iPony 007",
+"id": 33,
+"name": "iPonyyyyyyyyy 007",
 "manufacturer": "Apple",
 "description": "lorem ipsum dolor sit amet consectetur.",
 "color": "black",
@@ -19,21 +19,21 @@ content-Type: application/json
 }
 
 ###
-GET http://localhost:3000/phones/616b0be6db8b76f3183d6ba0
+GET http://localhost:3000/phones/<mongodb_id>
 
 ###
 
-DELETE http://localhost:3000/phones/616b0bf0db8b76f3183d6ba4
+DELETE http://localhost:3000/phones/<mongodb_id>
 
 ###
-PUT http://localhost:3000/phones/616b0be6db8b76f3183d6ba0 HTTP/1.1
+PUT http://localhost:3000/phones/<mongodb_id> HTTP/1.1
 content-Type: application/json
 
 
 {
-"id": 3,
-"name": "iPony 007",
-"manufacturer": "PERA",
+"id": 33,
+"name": "iPonyyyyyyyy 007",
+"manufacturer": "banana",
 "description": "Gatos maullan con la lata de atún",
 "color": "white",
 "price": 500,
