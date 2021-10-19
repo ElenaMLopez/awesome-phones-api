@@ -1,5 +1,4 @@
 const express = require('express');
-const { getAllPhones, postNewPhone } = require('./controllers/PhoneController');
 const router = require('./routes/phone');
 
 
